@@ -4,6 +4,11 @@ html {
 }
 
 /* Bulma Class Modifications */
+
+* {
+    transition: .5s ease;
+}
+
 body {
     color: #1B222B;
 }
@@ -25,7 +30,7 @@ a {
     border: 1px solid #FB0402;
     display: inline-flex;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
-    margin-top: -20px;
+    /* margin-top: -20px; */
 
 }
 
@@ -53,7 +58,8 @@ a {
 
 .block-01 {
     height:111px;
-    background-color: #F1F3FD;
+    /* background-color: #F1F3FD; */
+    background-color: #F4F5F7;
 }
 
 .block-02 {
@@ -61,10 +67,19 @@ a {
     background-color: #FFF1E8;
 }
 
+.block-02:hover {
+    background-color: #ffddc7;
+}
+
 .block-03 {
     height:111px;
     background-color: #E0EBED;
 }
+
+.block-03:hover {
+    background-color: #dbf9ff;
+}
+
 .block-text {
     padding: 64px 0px 0px 16px;
     font-weight: 700;
@@ -97,12 +112,13 @@ a {
 
 .cta-tags {
     display:flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding: 16px 0 0 0; 
     font-size: .8rem;
 }
 .custom-tag-set-02 {
-    margin: 0 8px 0 8px;
+    margin: 8px 8px 0 8px;
     width: 94px;
     padding: 8px 0 8px 0;
     color: #FF5019;
@@ -113,10 +129,24 @@ a {
     font-weight: bold;
 }
 
+.custom-tag-set-02:hover {
+    background-color: #fbedea;
+}
+
 .cta-text {
     display:flex;
     justify-content: center;
     font-weight: 900;
     font-size: 1.4rem;
     text-align:center;
+}
+
+.custom-tag-set-03 {
+    margin: 0 8px 0 8px;
+    width: 150px;
+    padding: 8px 0 8px 0;
+    display:inline-flex;
+    justify-content: center;
+    color: #1B222B ;
+    background-color: #F4F5F7;
 }
