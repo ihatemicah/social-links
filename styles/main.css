@@ -26,8 +26,8 @@ a {
 
 /* Modifications End */
 .freelance-section {
-    background-color:#f5c7c7;
-    border: 1px solid #FB0402;
+    background-color:#F6F7FA;
+    border: 1px solid #0F4BF1;
     display: inline-flex;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
     /* margin-top: -20px; */
@@ -36,10 +36,10 @@ a {
 
 .freelance-cta-button {
     width: 110px;
-    padding: 4px 4px 4px 4px; 
+    padding: 7px 8px 7px 8px; 
     text-align:center;
     margin: 11px;
-    background-color: #FB0402;
+    background-color: #0F4BF1;
     color:#fff;
     font-size: .9rem;
     font-weight: 700;
@@ -53,7 +53,7 @@ a {
     margin: auto 14px auto 0px;
     display:inline-flex;
     justify-content: center;
-    color: #FB0402;
+    color: #0F4BF1;
 }
 
 .block-01 {
