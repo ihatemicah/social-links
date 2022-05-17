@@ -1,6 +1,7 @@
 html {
     background-color: #fff;
     font-family:'Inter', sans-serif;
+    text-transform: lowercase;
 }
 
 /* Bulma Class Modifications */
@@ -80,12 +81,18 @@ a {
     background-color: #dbf9ff;
 }
 
+.default-block {
+    height:111px;
+    background-color: #fff;
+    border:1px solid #000;
+}
 .block-04 {
     height:111px;
-    background-color: #D3DDD0;
+    background-color: #fff;
+    border:1px solid #000;
 }
 .block-04:hover {
-    background-color:#BDCCB8 ;
+    background-color:#fff ;
 }
 
 .block-text {
@@ -105,11 +112,15 @@ a {
     padding: 8px 0 0 0;
     font-weight: 400;
 }
+
+
+
 .custom-tag-set-01 {
     width: 94px;
     padding: 8px 0 8px 0;
-    color: #6219FF;
-    background-color:#FAF5FF; 
+    color: #000;
+    background-color:#fff; 
+    border:1px #000 solid;
     display:inline-flex;
     justify-content: center;
 }
